@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>香蕉商城-网罗优惠拼团</title>
+    <link rel="icon" href="images/favicon.ico">
+    <!-- 连接MUI -->
+    <link rel="stylesheet" href="lib/mui/css/mui.min.css">
+    <!--引入Awesome字体图标库-->
+    <link rel="stylesheet" href="./lib/fontAwesome/css/font-awesome.css">
+    <!-- 连接less -->
+    <link rel="stylesheet/less" href="less/category.less">
+    <!-- 连接js编译器 -->
+    <script src="./lib/less/less.js"></script>
+    <!-- 连接rem -->
+    <script src="js/rem.js"></script>
+
+</head>
+
+<body>
+    <!-- 头部区域 -->
+    <header id="header">
+        <a href="index.html" class="left fa fa-arrow-left"></a>
+        <form action="#" class="center">
+            <input type="search" placeholder="请输入想要搜索的商品">
+        </form>
+        <a href="#" class="right fa fa-share"></a>
+    </header>
+
+    <!-- 主体区域 -->
+    <main id="main">
+        <div class="category-left"></div>
+        <div class="category-right"></div>
+    </main>
+
+    <!-- 底部区域 -->
+    <footer id="footer">
+        <div class="mui-row">
+            <div class="mui-col-xs-3"><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i><span>首页</span></a></div>
+            <div class="mui-col-xs-3"><a href="category.html" class="active"><i class="fa fa-bars" aria-hidden="true"></i><span>分类</span></a></div>
+            <div class="mui-col-xs-3"><a href="shopcart.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i><span>购物车</span></a></div>
+            <div class="mui-col-xs-3"><a href="user.html"><i class="fa fa-user" aria-hidden="true"></i><span>个人中心</span></a></div>
+        </div>
+    </footer>
+
+    <!-- 引入MUI的js -->
+    <script src="lib/mui/js/mui.min.js"></script>
+    <!-- 引入zepto的js -->
+    <script src="lib/zepto/zepto.min.js"></script>
+    <!-- 引入引擎的js -->
+    <script src="lib/artTemplate/template-web.js"></script>
+    <!-- 引入自身的js -->
+    <script src="js/category.js"></script>
+
+</body>
+
+</html>

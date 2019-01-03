@@ -1,0 +1,112 @@
+/* 连接base */
+
+@import "base.less";
+#header {
+    .right {
+        color: #ccc;
+        &:active {
+            color: @main-color;
+        }
+    }
+}
+
+#main {
+    .mui-scroll-wrapper {
+        top: .75rem;
+        bottom: .45rem;
+    }
+}
+
+/* 导航栏 */
+
+#nav {
+    height: .3rem;
+    background-color: #c5c5c5;
+    position: fixed;
+    left: 0;
+    top: .45rem;
+    z-index: 999;
+    width: 100%;
+    display: flex;
+    a {
+        display: block;
+        color: @bgc;
+        line-height: .3rem;
+        flex: 1;
+        text-align: center;
+        color: #000;
+    }
+}
+
+/* 搜索栏 */
+
+#search {
+    padding: .1rem;
+    display: flex;
+    form {
+        flex: 1;
+    }
+    input[type=search] {
+        border: 1px solid @bgc;
+        text-align: left;
+        color: #666;
+    }
+    .fa-search {
+        display: block;
+        color: #ccc;
+        font-size: .20rem;
+        line-height: .34rem;
+        text-align: center;
+        background-color: @bgc;
+        width: .34rem;
+        height: .34rem;
+    }
+}
+
+/* 导航栏2 */
+
+#nav2 {
+    a {
+        display: block;
+        img {
+            width: 100%;
+        }
+    }
+}
+
+/* 广告楼层区 */
+
+.floor {
+    a {
+        display: block;
+        img {
+            width: 100%;
+        }
+    }
+    .content {
+        margin-top: -3px;
+    }
+    margin-bottom: 10px;
+}
+
+/* 运动 */
+
+#sport {
+    a {
+        display: block;
+        img {
+            width: 100%;
+        }
+    }
+}
+
+/* 男士 */
+
+#men {
+    a {
+        display: block;
+        img {
+            width: 100%;
+        }
+    }
+}

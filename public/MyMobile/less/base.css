@@ -1,0 +1,84 @@
+/* 定基色 */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: .14rem;
+  line-height: .14rem;
+  color: #fff;
+  padding: .75rem 0 .45rem;
+  height: 100vh;
+}
+#main {
+  background-color: #fff;
+  height: 100%;
+  width: 100%;
+}
+#header {
+  display: flex;
+  align-items: center;
+  height: .45rem;
+  line-height: .45rem;
+  background-color: #333;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 999;
+  text-align: center;
+}
+#header .left {
+  width: .45rem;
+  height: .45rem;
+  color: #fff;
+  line-height: .45rem;
+}
+#header .center {
+  flex: 1;
+  text-align: center;
+  color: #fff;
+  font-weight: normal;
+}
+#header .center input {
+  margin-bottom: 0;
+  background-color: #ccc;
+  color: #333;
+  text-align: left;
+  font-size: .14rem;
+}
+#header .right {
+  width: .45rem;
+  height: .45rem;
+  line-height: .45rem;
+  color: #ccc;
+}
+#footer {
+  display: flex;
+  align-items: center;
+  height: .45rem;
+  line-height: 0.45rem;
+  background-color: #333;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  z-index: 999;
+}
+#footer .mui-row {
+  width: 100%;
+}
+#footer .mui-row a {
+  display: flex;
+  height: .45rem;
+  color: #ccc;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#footer .mui-row a span {
+  line-height: .2rem;
+}
+#footer .mui-row a.active {
+  color: gold;
+}

@@ -1,0 +1,161 @@
+/* 连接base */
+/* 定基色 */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: .14rem;
+  line-height: .14rem;
+  color: #fff;
+  padding: .75rem 0 .45rem;
+  height: 100vh;
+}
+#main {
+  background-color: #fff;
+  height: 100%;
+  width: 100%;
+}
+#header {
+  display: flex;
+  align-items: center;
+  height: .45rem;
+  line-height: .45rem;
+  background-color: #333;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 999;
+}
+#header .left {
+  width: .45rem;
+  height: .45rem;
+}
+#header .center {
+  flex: 1;
+  text-align: center;
+  color: #fff;
+  font-weight: normal;
+}
+#header .right {
+  width: .45rem;
+  height: .45rem;
+  line-height: .45rem;
+  color: gold;
+}
+#footer {
+  display: flex;
+  align-items: center;
+  height: .45rem;
+  line-height: 0.45rem;
+  background-color: #333;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  z-index: 999;
+}
+#footer .mui-row {
+  width: 100%;
+}
+#footer .mui-row a {
+  display: flex;
+  height: .45rem;
+  color: #ccc;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#footer .mui-row a span {
+  line-height: .2rem;
+}
+#footer .mui-row a.active {
+  color: gold;
+}
+#header .right {
+  color: #ccc;
+}
+#header .right:active {
+  color: gold;
+}
+#main .mui-scroll-wrapper {
+  top: .75rem;
+  bottom: .45rem;
+}
+/* 导航栏 */
+#nav {
+  height: .3rem;
+  background-color: #c5c5c5;
+  position: fixed;
+  left: 0;
+  top: .45rem;
+  z-index: 999;
+  width: 100%;
+  display: flex;
+}
+#nav a {
+  display: block;
+  color: #333;
+  line-height: .3rem;
+  flex: 1;
+  text-align: center;
+  color: #000;
+}
+/* 搜索栏 */
+#search {
+  padding: .1rem;
+  display: flex;
+}
+#search form {
+  flex: 1;
+}
+#search input[type=search] {
+  border: 1px solid #333;
+  text-align: left;
+  color: #666;
+}
+#search .fa-search {
+  display: block;
+  color: #ccc;
+  font-size: .20rem;
+  line-height: .34rem;
+  text-align: center;
+  background-color: #333;
+  width: .34rem;
+  height: .34rem;
+}
+/* 导航栏2 */
+#nav2 a {
+  display: block;
+}
+#nav2 a img {
+  width: 100%;
+}
+/* 广告楼层区 */
+.floor {
+  margin-bottom: 10px;
+}
+.floor a {
+  display: block;
+}
+.floor a img {
+  width: 100%;
+}
+.floor .content {
+  margin-top: -3px;
+}
+/* 运动 */
+#sport a {
+  display: block;
+}
+#sport a img {
+  width: 100%;
+}
+/* 男士 */
+#men a {
+  display: block;
+}
+#men a img {
+  width: 100%;
+}
